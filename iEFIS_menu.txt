@@ -1,0 +1,338 @@
+Supplementary waypoint editor
+Primary Navidata waypoint editor
+Secondary Navidta waypoint editor
+Information System Menu
+    Relevant Airspace information
+    Show system log
+    System status
+Common tasks
+    UTC Offset
+    Flight log pilot number
+    Export flight log pilot
+Install Tasks
+    Install Navi
+    Install supplementary waypoint file
+    Install Weight and Balance files
+    Install or Remove raster maps
+    Install vector maps
+    Delete current screen files in screens folder
+    Install screen files to screens folder
+    Install World image (Map)
+    Install sound file from SD/MMC card
+    Execute script library
+System Setup Menu
+    Broadcast / Accept functions and setup
+        Broadcast current setup to other panels
+        Setup broadcasts will be accepted
+        Accept general setup broadcasts
+        Accept engine setup broadcasts
+        Accept fuel setup broadcasts
+        Broadcast navigation on demand only
+        Accept navigation broadcasts
+    Time/data/Hobbs setup
+        Change system dat and time
+        Hobbs meter RDAC one
+        Tach meter RADC one
+        Maintenace timer RADC one
+        Airframe inspection timer
+    Sysstem units setup
+        Altitude untis
+        VSI units
+        Speed units
+        Temperature units
+        Oil pressure units
+        Manifold pressure units
+        Fuel pressure units
+        Liquid quantity units
+        Atmospheric pressure units
+        Hour faction units
+        Geographic position units
+    System operation setup
+        Flight detect
+        Automatic fuel averaging reset
+        Copilot mode
+        Audio level readout
+        Enable Audio on/off switching
+        Voice alarm interval
+        Startup page
+        Show wind direction relative to north
+        Flightlog/Aircraft name
+        Aicraft registration
+        Allow external OBS setting
+        Send frequencies to standby
+        Use low noise video output timing
+        Demo mode
+    Engine monitoring setup
+        RDAC 1 is used with this ssystem
+        Setup Rdac 1 probes and senders
+            RPM 1 setup menu
+            RPM 2 setup menu
+            Engine HP calculation setup
+            TC channel scan setup
+            EGT setup menu
+            CHT setup menu
+            OIL temperature setup menu
+            OIL pressure setup menu
+            Coolant temperature setup menu
+            AUX1 temperature setup menu
+            AUX2 temperature setup menu
+            Manifold pressure setup menu
+            Individual TC setup menu
+            Carb temp probe
+            Current sensor setup menu
+        Miscellaneous probes setup menu
+            LM335 sensor calib
+            Programmable probe
+    Fuel related setup
+        Fuel range/endurance RDAC 1
+            Virtual tank 1 RADC1 adds to range
+            Virtual tank 2 RADC1 adds to range
+            RDAC1, tank 1 does not add to range
+            RDAC1, tank 2 does not add to range
+            Range on GPS GS, TAS if no GPS
+        Setup RDAC 1 fuel probes and senders
+            Fuel flow 1 setup menu
+                Flow sender type
+                ...
+            Fuel tank setup menu
+            Fuel pressure setup menu
+                probe type
+                ...
+        Fuel level sender damping
+    Flight insturment setup
+        Airspeed indicator setup
+        Altimeter setup
+        VSI is normal
+        VSI TE compensation factor
+        VSI bar range
+        AOA probe type
+        GForce levels setup menu
+        Pullout predictor setup menu
+        Vacuum impact point display on map
+    Analog inputs setup
+    Digital inputs setup
+    Digital outputs setup
+    AGL and Flap warning setup
+        AGL Warning is enabled
+        AGL Warning below 0 ft AGL
+        Flap pos 1 Warning is disabled
+        Flap pos 22Warning is disabled
+        Flap pos 3 Warning is disabled
+    Enable AOA calibration functions
+    Setup AHRS sensor
+        Set slip zero
+        set bank angle to zero
+        set pitch angle to zero
+        force AHRS selection
+        show advanced AHRS options
+    Setup compass sensor
+        Tilt correction
+        Compass damping
+        Use magnetometer lineup calibration
+    Rotor craft instruments setup
+    MGL ECB Breaker setup
+    ECB Alarm enable setup
+    Setup Navigation
+        Current primary Navidata Region
+        Current secondary Navidata Region
+        Current Vertor map (VMAP) region
+        Geographic position units
+        Airspace color scheme
+        Vector map terrain color
+        Airspace alerts enable
+        Notify leaving airspace
+        Airspace look ahead is disabled
+        Enable audio airspace alert
+        GPS HSI points to waypoint
+        HSI heading source is GPS if available
+        Show turn point markers on HSI
+        Retrack after manual route point advance
+        Map range rings on all maps
+        ETA time based on UTC
+    Setup GPS and NMEA port operation
+        Primary GPS: intern EFIS
+        NMEA GPS at 9600 baud
+        Sync RTC go GPS time
+    External HSI sources setup
+        +/- 150mV analog inputs enable
+    ILS/GLS/GVOR setup
+        GLS intercept (FAF) distance
+        GLS glideslope
+        Glideslope/runway X distance
+        GLS altitude
+        Missed approach trigger RPM
+    Terrain warning setup
+        Look ahead distance
+        Activation delay after T/O
+        Descent detection:
+        Mp and 3D terrain warning ON
+        Call 500 feet
+        Warn "Terrain"
+        Warn "Pull up"
+    Traffic monitoring setup
+        Traffic system is disabled
+        Traffic alert enable
+        Horizontal alert distance
+        Vertical alert distance
+        Traffic diamond
+    Text editor related functions
+        Create a new checklist
+        Delete a checklist
+        Edit COM radio frequency list
+        Edit screen modules file
+    Flight data recording setup
+        Data recording enable
+        Create crecording file, 10MB
+        Create recording file, 50mb
+        Copy internal recording to SD card
+    Voltage/Current setup
+        Main voltage measurement source: MGL efis
+        Backup voltage measurement source: MGL efis
+        Current measruement source: MGL efis
+        Main supply low voltage level: 11.8V
+        Main supply fail alarm enable
+        Voltmeter calibration: 0%
+    Setup Autopilot (Internal AP and ARINC AP)
+        Flight director + Internal Autopilot
+        Bank servo
+        Pitch servo
+        Yaw servo
+        Bank control setup
+            Target rate of turn: 1.0 / second
+            Bank servo torque
+            Bank servo Magnitude
+            Heading control
+            Bank autotrim
+            Bank left limit
+            Bank right limit
+            Identify bank servo
+        Pitch control setup
+            Low ASI, foce nose lower: 65mph
+            High ASI, foce nose up: 90 mph
+            Target VSI for ascent: 100fpm
+            Target VSI for descent: 200 fpm
+            Pitch servo torque: 30%
+            Altitude control: medium
+            GS manouver start 1/2 DM (default)
+            Glide sloe control: 0
+            Pitch angle control Magnitude: 6
+            Pitch change to VSI reaction: medium
+            Pitch autotrim
+            Pitch down limit
+            Pitch up limit
+            Identify pitch servo
+    Autopilot servo test & checks
+        Bank servo test & checks
+            Set servo to pos 1 full
+            set servo to pos 1 half
+            set servo to center
+            set servo to pos 2 half
+            set servo to pos 2 full
+            MGL can servo:
+        Pitch servo test & checks
+        Yaw servo test & checks
+    Serial port routing/acllocations
+        RS232 port 1 (internal)
+        RS232 port 2 (external)
+        ....
+        RS232 port 6 (external)
+    ADS-B setup menu
+    Transponder setup menu
+        Type: mode-s on can
+        aircraft call-sign
+        icao id
+        VFR squawk code
+        Aircraft speed
+        Category light
+        Lenght of aircraft in meters
+        Widht of aircraft in meters
+        No UAT adb-b or 1090ES Receiver
+        Squat-switch is EFIS flight detect
+        Enable GPS data on ES
+    COM radio setup
+        COM 1 channel spacing: 8.33 khz
+        COM 2 channel spacing: 8.33 khz
+    ARINC setup
+    Flap indicator and control setup
+        Data source: MGL SP10
+        SP10 Flap controller
+        Reading
+        Flaps up position
+        Flaps position 1
+        Flaps posistion 2
+        Flapws down position
+        Move flaps up
+        Move flaps down
+        flaps motor current: 1234 mA
+        flaps motor timeout : 25.5S
+    Pitch trim indicator and control setup
+        Data source: MGL SP10
+        ..... see flap indicator above
+    Roll trim indicator and control setup
+        .... see pitch trim indicator above
+    Video inputs setup menu
+    Tone generator setup
+    Equipment enables
+        VHF COM 1 used in system
+        VHF COM 2 used in system
+        Transponder used in system
+        ADSB used in system
+        Pitch trim request display
+        Roll trim request display
+        Panel based Flap/Trim control
+        Altitude tracker enable
+    Setup LAN, Wifi and Wired
+    Standard system selections
+        Flight: standard screens
+        Engine: Rotax
+        Fuel: 1 Tank
+        Info: standard info pages
+        Flight: individual screen
+        Engine:
+        Fuel:
+        Info:
+    iBOX functions and sensor setup
+        Zero analog navigation inputs
+        Zero ASI and AOA sensors
+        ASI calibraion
+        Altimiter calibration
+        Alt sensor gain
+        VSI calibration factor
+        Ambient temp calibration
+        ALT Factory calibration
+        ASI facturoy calibration
+        Load ibox firmware from SD/MMC
+        set master serial to this panels serial
+        ibox installations
+    Upload firmware to MGL device
+    System bacic setup functions
+        Set configuration to factory (default)
+        Export setup to SD card
+        Load setup from SD card
+        Install terrain data files
+        Set lock level 3
+Autopilot preflight checks
+3D View setup
+    Attitude graticule display
+    3D terrain view
+    3D terrain color mode
+    3D terrain uses pressure altitude
+    No 3D heading indication
+    Never use GPS flight path display
+    Flight director display is disabled
+    Allow Helicopter pads
+    Show 3D Highway in the Sky
+    HITS following altitude bug
+    Velocity on, use GPS ground track fro 3D
+    Pitch ladder banks
+    Enable 2D traffic on SV
+    ObserveMe setup
+File manager
+Engine/Airframe timers
+    RDAC 1 Hobbs
+    RDAC 1 Tach
+    RDAC 1 Maint
+    Airfrime timer
+Daylight / Backlight setting
+Nighttime Backlingt setting
+System diagnostics
