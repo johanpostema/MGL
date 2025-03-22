@@ -1,0 +1,414 @@
+
+operations setup menu
+  flight detecht rpm: 4500
+  flight detect minimum asi: 20kts
+  automatic fuel averiging reset: true
+  copilot mode below airspeed: 60
+  audio flight level readout: true
+  enable audio on/off switching: false
+  voice alarm interval: 20 seconds
+  startup page: 1
+  show wind direction relativ to north
+  flightlog/aircraft name: FLTLOG 
+  aircraft-registration: PH-JGW
+  Allow external OBS setting: true
+  send frequencies to standby
+  use standard ideo output timing
+  demo mode: false
+  enable page draw performance display: false
+
+
+engine monitoring setup:
+  RDAC 1 is used with this system
+  RDAC 1 probes and senders
+    rpm 1 setup menu 
+      rpm1 pulses per revolution: 0.0
+      100% engine rpm1 at: 5800 rpm
+      rpm scale for display: 7000
+      hobbs minimum rpm: 0.0
+      hobbs tach 100% rapm: 0
+      maintenance timer based on hobbs RPM
+      RPM high alarm level: 5800
+      RPM high caution level: 5500
+      RPM low caution level: 2000
+      RPM low alarm level: 1800
+      lowest rpm for display: 1000
+      alarm enable + audio: true
+      scale RPM readout: 1
+      roud rpm readout: 1
+
+RDAC1 TC channels:
+  TC1: EGT scan 1
+  TC2: EGT scan 1
+  TC3: EGT scan 1
+  TC4: EGT scan 1
+  TC5: TC UNI 1
+  TC6: TC UNI 1
+  TC7: TC UNI 2
+  TC8: TC UNI 2
+  TC9: TC UNI 2
+  TC10: TC UNI 1
+  TC11: TC UNI 1
+  TC12: TC UNI 1
+
+EGT setup menu
+  highest temperature for display: 1200
+  alarm temperature: 950: true
+  caution temperature: 900: true
+  caution low temperature: 450: false
+  alam low temperature: 400: false
+  lowest temperature for display: 300
+  alarm enable+audio: true
+
+
+  Highest temperature for display: 200
+  Alarm temperature: 135: true
+  Caution temperature: 115: true
+  caution low temperature: 50: true
+  alarm low temperature: 60: true
+  lowest temperature for display: 40
+  alarm enabled: true
+
+Oil temperature setup
+  Probe type: PT100 platinum res.
+  Highest temperature for display: 150
+  Alarm temperature: 130: true
+  Caution temperature: 110: true
+  Caution low temperature: 50: true
+  Alarm low temperature: 45: true
+  Lowest temperature for display: 40
+  High alarm enabled+audio: true
+  Low alarm enabled: true
+
+Oil pressure setup:
+  Probe type: automotive, resistive
+  Probe restiance: 150 ohms
+  Resistance increases with pressure
+  Probe pressure range: 4.0 bar
+  Highest pressure for display: 10.0 bar
+  Alarm high pressure: 8.0 : false
+  Caution high pressure: 7.0: false
+  Caution low pressure: 2.0: true
+  Alarm low Pressure: 1.5 bar: true
+  lowest pressure for display: 0.0 bar
+  high alarm disabled: false
+  low alarm disabled: false
+
+Coolant temperature setup:
+  Probe type: LM335 semiconductor
+  Highest temperature for display: 120
+  Alarm temperature: 90: true
+  Caution temperature: 85: true
+  Caution low temperature: 60: false
+  Alarm low temperature: 50: false
+  Lowest temeprature for display: 40
+  High alarm disabled: false
+  Low alarm disabled: false
+
+Miscellaneous probes setup menu:
+  zie foto 22 maart 15:12
+
+Fuel related setup menu:
+  Fuel range/endurance RDAC 1
+    Virtual tank 1 drac 1 adds to range: true
+    virtual tank 2 rdac1 does not add to range: false
+    rdac1, tank1 does not add to range: false
+    rdac1, tanl2 does not adfd to range: false
+    range on GPS GS,  TAS if no GPS
+
+  setup RDAC 1 fuel probes and senders
+    fuel flow 1 setup menu
+      flow sender type: turbine
+      flow sender k-factor: 0
+      ff1 and ff2 are independent flow systems
+      highest flow for display: 50 liters
+      fuel flow high alarm: 35 liters: false
+      fuel flow high caution: 30 liters: false
+      fuel flow low caution: 6 liters: false
+      fue flow low alarm 5 liters: false
+      lowest fuel flow for display: 0 liters 
+
+  Fuel tank setup menu
+    rdac 1 vritual tank size: 50 liters
+    rdac 1 irtual tank 1 low: 20 liters: true
+    low alarm enabled
+    rdac 1 virtual tank 2 size: 50 liters
+    rdac 1 virtual tank 2 low: 20 liters: false
+    low alarm disabled
+    rdac 1 tank 1 size: 60 liters
+    rdac 1 tank 1 low: 25 liters: true
+    low alarm enabled +iBOX alarm out
+    fueltank calibration rdac 1 tank 1
+      alles staat op 0?!?!?!?!
+    rdac 1 tank 2 size: 50 liters
+    rdac 1 tank 2 low: 10 liters: true
+    low alarm disabled
+    low alarm disabled: false
+    rdac 1 tank 2 calibration
+     all 0
+
+
+  Fuel pressure setup menu:
+    probe type: automotive, resistive
+    probe resistance: 200 ohms
+    resistance increases with pressure
+    probe pressure range: 10.0 bar
+    --- vage lijnen ???? settings mist?
+    highest pressure for display: 6.0 bar
+    alarm high pressure: 3.0 bar: true:
+    caution high pressure: 2.0bar: aflse
+    caution low pressure: 0.5 bar: false
+    alarm low pressure: 0.2 bar
+    lowest pressure for display: 0.0bar
+    alarm enable + audio: true
+fuel sender damping: off
+
+
+Flight instruments setup
+  airspeed indicator setup:
+    ASI instrument scale (round): 200
+    ASI instrument resolutiuon (tape): 30pix/10
+    use standard atmospherid model for TAS
+    asi Vne: 165
+    Vno: 131
+    Vf: 83
+    vs1: 50
+    vs0: 44
+    vne: alarm enabled + audio: true
+    Vs: alarm enabled+audio: true
+    Enable mach number calculations: false
+
+  altimeter setup:
+    altimeter is pressure based
+    vsi is normal
+    vsi TE compensation factor: 33
+    vsi bar range: 1500ft min / 7.5ms
+    AOA probe type: relative 1 port)
+    GForce leves setup menu
+      highest + display: 5
+      3: true
+      2: true
+      -1: true
+      -1.9 true
+      highes for display: -3
+
+  pullout predictor enable: false
+  pullout g-force: 2.5G
+  pullout predictor dual mode: true
+  vacuum impact point display on map: false
+
+Analog inputs:
+  none 
+
+Digital input1: LEFT DOOR
+  alarm enabled+ibox alarm out
+    LEFT DOOR
+    actrive level is high, current: high
+    alarm enabled + ibOX alarm out: true
+    Function: no function
+
+Digital input 2: RIGHT DOOR
+  zelfde als left door
+
+
+Digital input 3: IDENT 
+  active level is low, current: high
+  alarm: disabled: false
+  function: transponder indent
+
+Digital input 4: AP180
+  active level is high, current: low 
+  alarm disabled: false
+  function: ap turn 180/Level
+
+Digital outputs: none used
+
+AGL and Flap warning setup
+  AGL warning is enabled
+  AGL warning below 0ft AGL
+  iFLAPS pos 1 wawrning is enabled
+  flap warning 1 if airspeed above 90 kts
+  flap pos 2 warning is enabled
+  flap warning 2 if airspeed above 90 kts
+  flap pos 3 warning is enabled
+  flap warning 3 if airspeed above 90 kts
+
+Setup AHRS:
+  set slip zero
+  remove bank angle correction
+
+Compass setup
+  Tilt correction: In EFIS, using AHRS
+  Compass damping: off
+  Heading (compass)
+  start in lfight calibration
+  use manetometer line up calibration: false
+
+MGL ECB
+  B1: EFIS, enable, 10A, 2s, def: off
+  B2: TCU/PROP, enable, 10A, 2s, def off
+  B3: COMM, enable, 10A, 1s, def off
+  B4: FLAPS/TRIM, enable, 10A, 1s, def off
+  B5: AVIONICS, enable, 10A, 1.0S, def: off
+  B6: AP, enable, 10A, 1.s def off
+  B7: ACCESOIRIES, enable, 10A, 1.0S, def off
+  B8: STROBE, enable, 10A, 2.0S, def: off
+
+ECB Alarm setup:
+  alles op enabled
+
+setup gps and nmea port operation
+  primary gps: internal EFIS
+  nmea gps at 9600 haud
+  sync rtc to gps time: true
+
+external HSI sources setup:
+  +.- 150mV analog inputs enable: true
+
+ILS/GLS/GVOR setup
+  GLS intercept FAF disatance: 5.2 NM
+  GLS Glideslope: 3.0
+  Glideslope/runway X distance 200 feet
+  GLS altitude GPS if availble
+  missed approach trigger RPM 5500: FALSE
+
+
+Traffic monitoring setup menu
+  traffic system is disabled
+  traffice alert enable: true
+  horizantl alert distance 0.9Nm
+  vertical alert distance : 500 ft
+  traffic diamony: small, skinny
+
+
+Autopilot setup (internal and arinc AP)
+  flight director + internal Autopilot
+  bank servo: installed
+  pitc sero: installed
+  yaw servo: not installed
+  bank control setup
+    target rate of turn 3.0 graden seconde
+    bank servo torque: 50%
+    bank servo magnitude: 13
+    heading control: medium
+    bank autotrim: false
+    bank left limit: 3746 position: 0
+    bank right limit 175 position:0
+
+  Pitch control setup
+    low ASI, force nos lower: 65kts
+    high asi, force nose up: 120kts
+    target vsi for ascent: 100 fpm
+    target vsi for descent: 200 fpm
+    pitch servo torque: 50%
+    altitude control: mdeium
+    GS manouver start 1/2 DDM (default)
+    Glide slope control: 0
+    Pitch angle control magnitude: 10
+    Pitch change to VSI reaction: medium
+    pitch autotrim: true
+    pitch down limit: 3795: position: 0
+    pitch up limit 299 posiution: 0
+
+
+  Serial port routing/allocations
+    RS232 port 1 internal not used
+    RS232 port 1 external not used
+    rs232 port 3 external MGL nav/COM 1 radio
+    rs232 port 4 external: not used
+    rs232 port 5 (extranl) not used
+    rs232 port 6 external GPS nmea fixed (klopt dit wel???)
+
+
+ADSB setup menu
+  ADSB is receive only (ADSB-IN)
+  ADSBrs232 baudradte: 38400 (STRATUX)
+  
+
+Transponder setup menu 
+  tpe: mode-s on CAN
+  call sign: ph-jgw
+  icao id octal: 22044301
+  VFR Squawk code: 7000
+  aircraft speed: >75 <=150 kts
+  category: light < 15500lbs
+  length of aircraft: 8
+  widht of aircraft: 10
+  no uat adsb or 1090es receiver
+  squatch switch is EFIS flight detect ---> vergeet niet ergens ook de flight detecgt mode te zetten dacht ik!
+  enable gps data on es: true
+
+comm radio
+  8.33kh spacing
+
+arinc:
+  trhee independent arinc rx channels
+  arinc1: accept any nav
+  arinc 2: accept any nav
+  aric 3: accetp any nav
+  arinc lateral teering passthrough: false
+
+
+Flap indicator and control setup
+  data source: sp10
+  sp10 flap controller detected
+  reading ongeveer 377 
+  flaps up position: 350
+  flaps position 1: 1200
+  flaps position 2: 2337
+  flaps down position: 3900
+  flaps motor current: 2450 mA
+  flaps motor timeout: 25.0 Sec
+
+Pitch trim indicator setup
+  data source: MGL sp10
+  sp10 pitch trim controller is detected
+  reading is ongeveer 3016
+  pitch trim up position: 0
+  pitch trim neutral position: 2048
+  pitch trim down position: 4095
+  pitch trim motor current: 2820 mA
+  pitch trim motor timeout 25.5 seconds
+
+
+Tone genrator setup:
+  allow vario tone generator: false
+  tone always on 
+  vario audio level high
+  ivario tone only if rpm=0: false
+  ejnable AOA tone genrator: false
+  AOA tone > 50% green
+
+Equipment enables:
+  VHF com 1 used in system: true
+  VHF com 2 used in sytem: false
+  Transponder used in system: true
+  ADSB used in system: false
+  Pitch trim request display: false
+  Roll trim request display: false
+  Panel based flap/trim Control: true
+  Altitude tracker enable: false
+
+Standard system selections:
+  flight: standard flight screens
+  engine: custom screen designs
+  fuel: 1 tank ff fp ???
+  info: standard info pages
+  flight: individual screen custom enables
+  engine: individual screen custom enables
+  fuel: individual screen custom enables
+  info: individual screen custom enables
+
+iBOX functions and sensor setup
+  zero analog navgation inputs
+  zero asi and aoa sensors
+  asi calibration 0
+  asi calibration 0
+  asi calibration 0
+  asi calibration 0
+  altimiter calibration factor: 0 altitude 237 ft
+
+
+    
+
+
